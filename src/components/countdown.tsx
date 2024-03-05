@@ -13,11 +13,11 @@ export function Countdown() {
     minutes: 0,
   })
 
-  const difference = differenceInSeconds(tomorrow, now)
+  const secondsUntilNewVerse = differenceInSeconds(tomorrow, now) // Next day at 6 am
 
-  const hour = Math.floor(difference / (60 * 60))
-  const minute = Math.floor((difference % (60 * 60)) / 60)
-  const second = Math.floor(difference % 60)
+  const hour = Math.floor(secondsUntilNewVerse / (60 * 60))
+  const minute = Math.floor((secondsUntilNewVerse % (60 * 60)) / 60)
+  const second = Math.floor(secondsUntilNewVerse % 60)
 
   const [seconds, setSeconds] = useState(second)
   const [minutes, setMinutes] = useState(minute)
@@ -37,8 +37,6 @@ export function Countdown() {
     }
 
     if (hours === 0 && minutes === 0 && seconds === 0) {
-      console.log('revalidate data!')
-
       setSeconds(60)
       setMinutes(60)
       setHours(2)

@@ -6,23 +6,37 @@ import {
   CardTitle,
 } from './ui/card'
 
-export function DailyVerse() {
+interface DailyVerseProps {
+  content: {
+    book: {
+      abbrev: { pt: string; en: string }
+      name: string
+      author: string
+      group: string
+      version: string
+    }
+    chapter: number
+    number: number
+    text: string
+  }
+}
+
+export function DailyVerse({
+  content: { chapter, number, text, book },
+}: DailyVerseProps) {
   return (
     <div className="px-6 md:w-[75%] lg:w-[70%] xl:w-[50%]">
       <Card>
         <CardHeader>
-          <CardTitle>1ª Coríntios - 1:11</CardTitle>
+          <CardTitle>
+            {book.name} - {chapter}:{number}
+          </CardTitle>
           <CardDescription>
-            Escrito por <span className="underline">Paulo</span>
+            Escrito por <span className="underline">{book.author}</span>
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <h1>
-            &quot;Mas agora estou lhes escrevendo que não devem associar-se com
-            qualquer que, dizendo-se irmão, seja imoral, avarento, idólatra,
-            caluniador, alcoólatra ou ladrão. Com tais pessoas vocês nem devem
-            comer.&quot;
-          </h1>
+          <h1>&quot;{text.replace('"', '')}&quot;</h1>
         </CardContent>
       </Card>
     </div>

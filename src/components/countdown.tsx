@@ -44,7 +44,7 @@ export function Countdown() {
   }, [seconds, minutes, hours])
 
   return (
-    <b>
+    <b suppressHydrationWarning>
       {hours.toString().padStart(2, '0')} :{' '}
       {minutes.toString().padStart(2, '0')} :{' '}
       {seconds.toString().padStart(2, '0')}

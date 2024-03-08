@@ -1,19 +1,14 @@
 'use client'
 
-import { addDays, differenceInSeconds, set } from 'date-fns'
+import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
+import { getSecondsToNewVerse } from '@/utils/get-seconds-to-new-verse'
+
 export function Countdown() {
-  const now = new Date()
+  const router = useRouter()
 
-  const tomorrow = set(addDays(now, 1), {
-    hours: 6,
-    milliseconds: 0,
-    seconds: 0,
-    minutes: 0,
-  })
-
-  const secondsUntilNewVerse = differenceInSeconds(tomorrow, now) // Next day at 6 am
+  const secondsUntilNewVerse = getSecondsToNewVerse()
 
   const hour = Math.floor(secondsUntilNewVerse / (60 * 60))
   const minute = Math.floor((secondsUntilNewVerse % (60 * 60)) / 60)
@@ -37,11 +32,13 @@ export function Countdown() {
     }
 
     if (hours === 0 && minutes === 0 && seconds === 0) {
+      router.refresh()
+
       setSeconds(60)
       setMinutes(60)
-      setHours(2)
+      setHours(24)
     }
-  }, [seconds, minutes, hours])
+  }, [seconds, minutes, hours, router])
 
   return (
     <b suppressHydrationWarning>

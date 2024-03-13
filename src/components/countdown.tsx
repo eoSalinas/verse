@@ -1,18 +1,27 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 import { getSecondsToNewVerse } from '@/utils/get-seconds-to-new-verse'
 
 export function Countdown() {
   const router = useRouter()
 
-  const secondsUntilNewVerse = getSecondsToNewVerse()
+  const secondsUntilNewVerse = useMemo(getSecondsToNewVerse, [])
 
-  const hour = Math.floor(secondsUntilNewVerse / (60 * 60))
-  const minute = Math.floor((secondsUntilNewVerse % (60 * 60)) / 60)
-  const second = Math.floor(secondsUntilNewVerse % 60)
+  const hour = useMemo(
+    () => Math.floor(secondsUntilNewVerse / (60 * 60)),
+    [secondsUntilNewVerse],
+  )
+  const minute = useMemo(
+    () => Math.floor((secondsUntilNewVerse % (60 * 60)) / 60),
+    [secondsUntilNewVerse],
+  )
+  const second = useMemo(
+    () => Math.floor(secondsUntilNewVerse % 60),
+    [secondsUntilNewVerse],
+  )
 
   const [seconds, setSeconds] = useState(second)
   const [minutes, setMinutes] = useState(minute)

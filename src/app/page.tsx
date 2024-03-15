@@ -2,6 +2,7 @@ import { cookies } from 'next/headers'
 
 import { Countdown } from '@/components/countdown'
 import { DailyVerse } from '@/components/daily-verse'
+import { siteConfig } from '@/config/site'
 
 export default async function Home() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -14,7 +15,8 @@ export default async function Home() {
       </h1>
       <DailyVerse />
       <footer className="text-center text-sm text-muted-foreground">
-        Todo dia um versículo &copy; Verse - {new Date().getFullYear()}
+        Todo dia um versículo &copy; {siteConfig.name} -{' '}
+        {new Date().getFullYear()}
       </footer>
     </div>
   )

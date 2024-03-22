@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server'
 
-import verses from '@/verses.json'
+import verseList from '@/verses.json'
 
 export async function GET(req: NextRequest) {
   const authHeader = req.headers.get('authorization')
@@ -11,7 +11,8 @@ export async function GET(req: NextRequest) {
     })
   }
 
-  const randomVerse = verses[Math.floor(Math.random() * verses.length)]
+  const randomVerse =
+    verseList.verses[Math.floor(Math.random() * verseList.verses.length)]
 
   const response = await fetch(
     `https://www.abibliadigital.com.br/api/verses/nvi/${randomVerse.abbrev}/${randomVerse.chapter}/${randomVerse.verse}`,

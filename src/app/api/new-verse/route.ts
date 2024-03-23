@@ -1,10 +1,12 @@
 import { revalidateTag } from 'next/cache'
 import { NextRequest } from 'next/server'
 
+import { env } from '@/env'
+
 export async function GET(req: NextRequest) {
   const authHeader = req.headers.get('authorization')
 
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (authHeader !== `Bearer ${env.CRON_SECRET}`) {
     return new Response('Unauthorized', {
       status: 401,
     })

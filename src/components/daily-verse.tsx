@@ -1,3 +1,6 @@
+import { env } from '@/env'
+import { api } from '@/utils/api'
+
 import {
   Card,
   CardContent,
@@ -20,9 +23,9 @@ interface GetVerseResponse {
 }
 
 async function getVerse(): Promise<GetVerseResponse> {
-  const response = await fetch(`http://localhost:3000/api/random-verse`, {
+  const response = await api(`/random-verse`, {
     headers: {
-      Authorization: `Bearer ${process.env.CRON_SECRET}`,
+      Authorization: `Bearer ${env.CRON_SECRET}`,
     },
     cache: 'force-cache',
     next: {

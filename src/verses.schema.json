@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Verses pre-selected",
+  "description": "Object containing an array of pre-selected verses.",
+  "type": "object",
+  "properties": {
+    "verses": {
+      "description": "List of good verses pre-selected by the community",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "abbrev": {
+            "type": "string",
+            "description": "Abbreviation of the book in Brazilian Portuguese. For example, 'gn' for Genesis.\nFor a list of abbreviations and their corresponding books, see this https://github.com/eoSalinas/verse/issues/3",
+            "enum": [
+              "gn", 
+              "ex", 
+              "lv", 
+              "nm", 
+              "dt", 
+              "js", 
+              "jz",
+              "rt", 
+              "1sm", 
+              "2sm", 
+              "1rs", 
+              "2rs", 
+              "1cr", 
+              "2cr", 
+              "ed", 
+              "ne", 
+              "et", 
+              "jó", 
+              "sl", 
+              "pv", 
+              "ec", 
+              "ct", 
+              "is", 
+              "jr", 
+              "lm", 
+              "ez", 
+              "dn", 
+              "os", 
+              "jl", 
+              "am", 
+              "ob", 
+              "jn", 
+              "mq", 
+              "na", 
+              "hc", 
+              "sf", 
+              "ag", 
+              "zc", 
+              "ml", 
+              "mt", 
+              "mc", 
+              "lc", 
+              "jo", 
+              "at", 
+              "rm", 
+              "1co", 
+              "2co", 
+              "gl", 
+              "ef", 
+              "fp", 
+              "cl", 
+              "1ts", 
+              "2ts", 
+              "1tm", 
+              "2tm", 
+              "tt", 
+              "fm", 
+              "hb", 
+              "tg", 
+              "1pe", 
+              "2pe", 
+              "1jo", 
+              "2jo", 
+              "3jo", 
+              "jd", 
+              "ap"
+            ]
+          },
+          "chapter": {
+            "type": "string",
+            "description": "Book chapter."
+          },
+          "verse": {
+            "type": "string",
+            "description": "Verse."
+          }
+        },
+        "required": ["abbrev", "chapter", "verse"]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": ["verses"]
+}

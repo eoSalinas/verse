@@ -1,34 +1,40 @@
-[Verse](https://verse-chi.vercel.app/) é uma aplicação simples que disponibiliza um versículo novo a cada 24 horas.
+[Verse](https://verse-chi.vercel.app/) é uma aplicação que disponibiliza um **novo versículo bíblico a cada 24 horas**, sendo uma fonte diária de **inspiração e reflexão** para compartilhar a **sabedoria da palavra de Deus** com o mundo!
 
-## Contribuindo
-Contribuições, problemas e novas funcionalidades são muito bem-vindas! Para isso, siga estes passos:
+![verse-thumb](https://github.com/eoSalinas/verse/assets/80262440/6363e93d-03b1-47a4-9ccf-0b331015994a)
 
-1. Abra uma issue explicando seu ponto, sugestão ou ideia, assim podemos conversar.
-2. Se você tem a implementação para resolver aquela issue, crie uma PR para a branch `develop`, pois a `main` é um espelho para produção.
+## Como posso contribuir?
+Todas as contribuições são muito bem-vindas!
 
-### Rodando o projeto localmente
+Você pode começar por aqui:
+- [Entendendo o projeto Verse](https://github.com/eoSalinas/verse/issues/1)
+- [Ajudando na pré-seleção de 365 versículos](https://github.com/eoSalinas/verse/issues/5)
+#### Tem uma ideia em mente?
+Fique a vontade para abrir um issue explicando sua sugestão, dessa maneira podemos conversar.
+
+Não esqueça de verificar se alguém já não abriu uma issue com uma ideia similar, caso sim, por que não tentam trabalhar juntos?
+### Quer rodar o projeto localmente?
 #### Dependências
 certifique-se de ter as seguintes dependências instaladas:
 
 - Node.js
 - PNPM
-
-##### Como fazer o setup do projeto?
-Siga estes passos para configurar e executar o projeto localmente:
+#### Como fazer o setup do projeto?
+Siga estes passos para configurar e executar o projeto:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/verse.git
+   git clone https://github.com/eoSalinas/verse.git
    ```
 2. Instale as dependências do projeto:
 	```bash
 	pnpm install
 	```
-3. Rode o projeto:
+3. Crie um arquivo `.env` como o mesmo conteúdo do arquivo `.env.example`
+4. Rode o projeto:
 	```bash
 	pnpm dev
 	```
-4. Abra o navegador em `localhost:3000` e pronto! 🎉
+5. Abra o navegador em `localhost:3000` e pronto! 🎉
 
 ## Créditos e Agradecimentos
 

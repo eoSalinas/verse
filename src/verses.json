@@ -1,0 +1,75 @@
+{
+  "$schema": "verses.schema.json",
+  "verses": [
+    {
+      "abbrev": "sl",
+      "chapter": "23",
+      "verse": "1"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "40",
+      "verse": "1"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "3",
+      "verse": "5"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "3",
+      "verse": "6"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "4",
+      "verse": "23"
+    },
+    {
+      "abbrev": "ec",
+      "chapter": "4",
+      "verse": "6"
+    },
+    {
+      "abbrev": "ec",
+      "chapter": "11",
+      "verse": "4"
+    },
+    {
+      "abbrev": "jo",
+      "chapter": "3",
+      "verse": "16"
+    },
+    {
+      "abbrev": "jo",
+      "chapter": "10",
+      "verse": "10"
+    },
+    {
+      "abbrev": "rm",
+      "chapter": "8",
+      "verse": "31"
+    },
+    {
+      "abbrev": "rm",
+      "chapter": "12",
+      "verse": "12"
+    },
+    {
+      "abbrev": "cl",
+      "chapter": "3",
+      "verse": "14"
+    },
+    {
+      "abbrev": "cl",
+      "chapter": "3",
+      "verse": "23"
+    },
+    {
+      "abbrev": "fp",
+      "chapter": "4",
+      "verse": "6"
+    }
+  ]
+}

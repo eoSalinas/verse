@@ -197,489 +197,394 @@
       "verse": "4"
     },
     {
-        "abbrev": "ex",
-        "chapter": "15",
-        "verse": "2"
+      "abbrev": "ex",
+      "chapter": "15",
+      "verse": "2"
     },
     {
-        "abbrev": "pv",
-        "chapter": "13",
-        "verse": "20"
+      "abbrev": "pv",
+      "chapter": "13",
+      "verse": "20"
     },
     {
-        "abbrev": "1pe",
-        "chapter": "1",
-        "verse": "22"
+      "abbrev": "1pe",
+      "chapter": "1",
+      "verse": "22"
     },
     {
-        "abbrev": "sl",
-        "chapter": "33",
-        "verse": "11"
+      "abbrev": "sl",
+      "chapter": "33",
+      "verse": "11"
     },
     {
-        "abbrev": "tg",
-        "chapter": "1",
-        "verse": "5"
+      "abbrev": "tg",
+      "chapter": "1",
+      "verse": "5"
     },
     {
-        "abbrev": "2co",
-        "chapter": "5",
-        "verse": "7"
+      "abbrev": "2co",
+      "chapter": "5",
+      "verse": "7"
     },
     {
-        "abbrev": "fp",
-        "chapter": "4",
-        "verse": "6"
+      "abbrev": "gl",
+      "chapter": "6",
+      "verse": "14"
     },
     {
-        "abbrev": "gl",
-        "chapter": "6",
-        "verse": "14"
+      "abbrev": "pv",
+      "chapter": "31",
+      "verse": "28"
     },
     {
-        "abbrev": "pv",
-        "chapter": "31",
-        "verse": "28"
+      "abbrev": "hb",
+      "chapter": "5",
+      "verse": "2"
     },
     {
-        "abbrev": "hb",
-        "chapter": "5",
-        "verse": "2"
+      "abbrev": "sl",
+      "chapter": "100",
+      "verse": "2"
     },
     {
-        "abbrev": "fp",
-        "chapter": "4",
-        "verse": "13"
+      "abbrev": "lc",
+      "chapter": "1",
+      "verse": "50"
     },
     {
-        "abbrev": "gl",
-        "chapter": "6",
-        "verse": "14"
+      "abbrev": "mc",
+      "chapter": "10",
+      "verse": "14"
     },
     {
-        "abbrev": "sl",
-        "chapter": "100",
-        "verse": "2"
+      "abbrev": "lc",
+      "chapter": "1",
+      "verse": "46"
     },
     {
-        "abbrev": "lc",
-        "chapter": "1",
-        "verse": "50"
+      "abbrev": "pv",
+      "chapter": "12",
+      "verse": "22"
     },
     {
-        "abbrev": "mc",
-        "chapter": "10",
-        "verse": "14"
+      "abbrev": "jo",
+      "chapter": "15",
+      "verse": "5"
     },
     {
-        "abbrev": "lc",
-        "chapter": "1",
-        "verse": "46"
+      "abbrev": "jr",
+      "chapter": "29",
+      "verse": "13"
     },
     {
-        "abbrev": "pv",
-        "chapter": "12",
-        "verse": "22"
+      "abbrev": "rm",
+      "chapter": "8",
+      "verse": "38"
     },
     {
-        "abbrev": "jo",
-        "chapter": "15",
-        "verse": "5"
+      "abbrev": "jr",
+      "chapter": "29",
+      "verse": "11"
     },
     {
-        "abbrev": "jr",
-        "chapter": "29",
-        "verse": "13"
+      "abbrev": "jo",
+      "chapter": "14",
+      "verse": "6"
     },
     {
-        "abbrev": "rm",
-        "chapter": "8",
-        "verse": "38"
+      "abbrev": "rm",
+      "chapter": "15",
+      "verse": "13"
     },
     {
-        "abbrev": "jr",
-        "chapter": "29",
-        "verse": "11"
+      "abbrev": "sl",
+      "chapter": "37",
+      "verse": "4"
     },
     {
-        "abbrev": "is",
-        "chapter": "40",
-        "verse": "29"
+      "abbrev": "sl",
+      "chapter": "50",
+      "verse": "15"
     },
     {
-        "abbrev": "jo",
-        "chapter": "14",
-        "verse": "6"
+      "abbrev": "2pe",
+      "chapter": "3",
+      "verse": "9"
     },
     {
-        "abbrev": "rm",
-        "chapter": "15",
-        "verse": "13"
+      "abbrev": "gl",
+      "chapter": "5",
+      "verse": "22"
     },
     {
-        "abbrev": "sl",
-        "chapter": "37",
-        "verse": "4"
+      "abbrev": "1co",
+      "chapter": "13",
+      "verse": "7"
     },
     {
-        "abbrev": "sl",
-        "chapter": "50",
-        "verse": "15"
+      "abbrev": "1co",
+      "chapter": "13",
+      "verse": "11"
     },
     {
-        "abbrev": "2pe",
-        "chapter": "3",
-        "verse": "9"
+      "abbrev": "fp",
+      "chapter": "2",
+      "verse": "3"
     },
     {
-        "abbrev": "gl",
-        "chapter": "5",
-        "verse": "22"
+      "abbrev": "lc",
+      "chapter": "6",
+      "verse": "38"
     },
     {
-        "abbrev": "1co",
-        "chapter": "13",
-        "verse": "7"
+      "abbrev": "1cr",
+      "chapter": "29",
+      "verse": "13"
     },
     {
-        "abbrev": "1co",
-        "chapter": "13",
-        "verse": "11"
+      "abbrev": "sl",
+      "chapter": "7",
+      "verse": "17"
     },
     {
-        "abbrev": "tg",
-        "chapter": "1",
-        "verse": "5"
+      "abbrev": "2ts",
+      "chapter": "2",
+      "verse": "16"
     },
     {
-        "abbrev": "fp",
-        "chapter": "2",
-        "verse": "3"
+      "abbrev": "sl",
+      "chapter": "37",
+      "verse": "8"
     },
     {
-        "abbrev": "lc",
-        "chapter": "6",
-        "verse": "38"
+      "abbrev": "sl",
+      "chapter": "141",
+      "verse": "3"
     },
     {
-        "abbrev": "1cr",
-        "chapter": "29",
-        "verse": "13"
+      "abbrev": "ec",
+      "chapter": "5",
+      "verse": "10"
     },
     {
-        "abbrev": "sl",
-        "chapter": "7",
-        "verse": "17"
+      "abbrev": "sl",
+      "chapter": "95",
+      "verse": "6"
     },
     {
-        "abbrev": "2ts",
-        "chapter": "2",
-        "verse": "16"
+      "abbrev": "dt",
+      "chapter": "4",
+      "verse": "10"
     },
     {
-        "abbrev": "sl",
-        "chapter": "37",
-        "verse": "8"
+      "abbrev": "mc",
+      "chapter": "12",
+      "verse": "30"
     },
     {
-        "abbrev": "sl",
-        "chapter": "141",
-        "verse": "3"
+      "abbrev": "sl",
+      "chapter": "13",
+      "verse": "5"
     },
     {
-        "abbrev": "sl",
-        "chapter": "37",
-        "verse": "8"
+      "abbrev": "pv",
+      "chapter": "22",
+      "verse": "5"
     },
     {
-        "abbrev": "ec",
-        "chapter": "5",
-        "verse": "10"
+      "abbrev": "sl",
+      "chapter": "9",
+      "verse": "9"
     },
     {
-        "abbrev": "sl",
-        "chapter": "95",
-        "verse": "6"
+      "abbrev": "at",
+      "chapter": "2",
+      "verse": "38"
     },
     {
-        "abbrev": "dt",
-        "chapter": "4",
-        "verse": "10"
+      "abbrev": "1pe",
+      "chapter": "4",
+      "verse": "16"
     },
     {
-        "abbrev": "mc",
-        "chapter": "12",
-        "verse": "30"
+      "abbrev": "sl",
+      "chapter": "3",
+      "verse": "3"
     },
     {
-        "abbrev": "sl",
-        "chapter": "13",
-        "verse": "5"
+      "abbrev": "tg",
+      "chapter": "4",
+      "verse": "7"
     },
     {
-        "abbrev": "pv",
-        "chapter": "22",
-        "verse": "5"
+      "abbrev": "gl",
+      "chapter": "5",
+      "verse": "16"
     },
     {
-        "abbrev": "tg",
-        "chapter": "1",
-        "verse": "5"
+      "abbrev": "1sm",
+      "chapter": "1",
+      "verse": "27"
     },
     {
-        "abbrev": "sl",
-        "chapter": "9",
-        "verse": "9"
+      "abbrev": "lc",
+      "chapter": "11",
+      "verse": "28"
     },
     {
-        "abbrev": "at",
-        "chapter": "2",
-        "verse": "38"
+      "abbrev": "jo",
+      "chapter": "8",
+      "verse": "12"
     },
     {
-        "abbrev": "1pe",
-        "chapter": "4",
-        "verse": "16"
+      "abbrev": "1co",
+      "chapter": "16",
+      "verse": "14"
     },
     {
-        "abbrev": "sl",
-        "chapter": "3",
-        "verse": "3"
+      "abbrev": "jo",
+      "chapter": "12",
+      "verse": "46"
     },
     {
-        "abbrev": "tg",
-        "chapter": "4",
-        "verse": "7"
+      "abbrev": "rm",
+      "chapter": "12",
+      "verse": "10"
     },
     {
-        "abbrev": "gl",
-        "chapter": "5",
-        "verse": "16"
+      "abbrev": "mt",
+      "chapter": "5",
+      "verse": "11"
     },
     {
-        "abbrev": "1sm",
-        "chapter": "1",
-        "verse": "27"
+      "abbrev": "at",
+      "chapter": "2",
+      "verse": "26"
     },
     {
-        "abbrev": "jo",
-        "chapter": "3",
-        "verse": "16"
+      "abbrev": "sl",
+      "chapter": "54",
+      "verse": "4"
     },
     {
-        "abbrev": "lc",
-        "chapter": "11",
-        "verse": "28"
+      "abbrev": "1pe",
+      "chapter": "1",
+      "verse": "3"
     },
     {
-        "abbrev": "jo",
-        "chapter": "8",
-        "verse": "12"
+      "abbrev": "rm",
+      "chapter": "4",
+      "verse": "17"
     },
     {
-        "abbrev": "1co",
-        "chapter": "16",
-        "verse": "14"
+      "abbrev": "rm",
+      "chapter": "3",
+      "verse": "24"
     },
     {
-        "abbrev": "jo",
-        "chapter": "12",
-        "verse": "46"
+      "abbrev": "mt",
+      "chapter": "4",
+      "verse": "17"
     },
     {
-        "abbrev": "rm",
-        "chapter": "12",
-        "verse": "10"
+      "abbrev": "sl",
+      "chapter": "61",
+      "verse": "2"
     },
     {
-        "abbrev": "mt",
-        "chapter": "5",
-        "verse": "11"
+      "abbrev": "mt",
+      "chapter": "6",
+      "verse": "14"
     },
     {
-        "abbrev": "at",
-        "chapter": "2",
-        "verse": "26"
+      "abbrev": "rm",
+      "chapter": "5",
+      "verse": "8"
     },
     {
-        "abbrev": "2co",
-        "chapter": "5",
-        "verse": "7"
+      "abbrev": "is",
+      "chapter": "54",
+      "verse": "17"
     },
     {
-        "abbrev": "sl",
-        "chapter": "54",
-        "verse": "4"
+      "abbrev": "pv",
+      "chapter": "12",
+      "verse": "24"
     },
     {
-        "abbrev": "1pe",
-        "chapter": "1",
-        "verse": "3"
+      "abbrev": "2co",
+      "chapter": "9",
+      "verse": "8"
     },
     {
-        "abbrev": "ne",
-        "chapter": "8",
-        "verse": "10"
+      "abbrev": "sl",
+      "chapter": "1",
+      "verse": "4"
     },
     {
-        "abbrev": "rm",
-        "chapter": "4",
-        "verse": "17"
+      "abbrev": "ef",
+      "chapter": "5",
+      "verse": "18"
     },
     {
-        "abbrev": "rm",
-        "chapter": "3",
-        "verse": "24"
+      "abbrev": "tt",
+      "chapter": "3",
+      "verse": "2"
     },
     {
-        "abbrev": "mt",
-        "chapter": "4",
-        "verse": "17"
+      "abbrev": "mt",
+      "chapter": "5",
+      "verse": "9"
     },
     {
-        "abbrev": "sl",
-        "chapter": "61",
-        "verse": "2"
+      "abbrev": "1jo",
+      "chapter": "4",
+      "verse": "18"
     },
     {
-        "abbrev": "mt",
-        "chapter": "6",
-        "verse": "14"
+      "abbrev": "mt",
+      "chapter": "5",
+      "verse": "16"
     },
     {
-        "abbrev": "rm",
-        "chapter": "5",
-        "verse": "8"
+      "abbrev": "ap",
+      "chapter": "22",
+      "verse": "3"
     },
     {
-        "abbrev": "mc",
-        "chapter": "10",
-        "verse": "27"
+      "abbrev": "pv",
+      "chapter": "17",
+      "verse": "6"
     },
     {
-        "abbrev": "is",
-        "chapter": "54",
-        "verse": "17"
+      "abbrev": "lc",
+      "chapter": "1",
+      "verse": "49"
     },
     {
-        "abbrev": "at",
-        "chapter": "2",
-        "verse": "38"
+      "abbrev": "mt",
+      "chapter": "5",
+      "verse": "22"
     },
     {
-        "abbrev": "pv",
-        "chapter": "12",
-        "verse": "24"
+      "abbrev": "1cr",
+      "chapter": "16",
+      "verse": "11"
     },
     {
-        "abbrev": "2co",
-        "chapter": "9",
-        "verse": "8"
+      "abbrev": "am",
+      "chapter": "4",
+      "verse": "5"
     },
     {
-        "abbrev": "sl",
-        "chapter": "54",
-        "verse": "4"
+      "abbrev": "sl",
+      "chapter": "6",
+      "verse": "9"
     },
     {
-        "abbrev": "sl",
-        "chapter": "1",
-        "verse": "4"
-    },
-    {
-        "abbrev": "ef",
-        "chapter": "5",
-        "verse": "18"
-    },
-    {
-        "abbrev": "jo",
-        "chapter": "12",
-        "verse": "46"
-    },
-    {
-        "abbrev": "tt",
-        "chapter": "3",
-        "verse": "2"
-    },
-    {
-        "abbrev": "mt",
-        "chapter": "5",
-        "verse": "9"
-    },
-    {
-        "abbrev": "sl",
-        "chapter": "7",
-        "verse": "17"
-    },
-    {
-        "abbrev": "1jo",
-        "chapter": "4",
-        "verse": "18"
-    },
-    {
-        "abbrev": "mt",
-        "chapter": "5",
-        "verse": "16"
-    },
-    {
-        "abbrev": "ap",
-        "chapter": "22",
-        "verse": "3"
-    },
-    {
-        "abbrev": "pv",
-        "chapter": "17",
-        "verse": "6"
-    },
-    {
-        "abbrev": "lc",
-        "chapter": "1",
-        "verse": "49"
-    },
-    {
-        "abbrev": "1co",
-        "chapter": "13",
-        "verse": "7"
-    },
-    {
-        "abbrev": "rm",
-        "chapter": "5",
-        "verse": "8"
-    },
-    {
-        "abbrev": "sl",
-        "chapter": "1",
-        "verse": "6"
-    },
-    {
-        "abbrev": "mt",
-        "chapter": "5",
-        "verse": "22"
-    },
-    {
-        "abbrev": "1cr",
-        "chapter": "16",
-        "verse": "11"
-    },
-    {
-        "abbrev": "am",
-        "chapter": "4",
-        "verse": "5"
-    },
-    {
-        "abbrev": "sl",
-        "chapter": "6",
-        "verse": "9"
-    },
-    {
-        "abbrev": "rm",
-        "chapter": "12",
-        "verse": "21"
-    },
-    {
-        "abbrev": "sl",
-        "chapter": "100",
-        "verse": "2"
+      "abbrev": "rm",
+      "chapter": "12",
+      "verse": "21"
     }
   ]
 }

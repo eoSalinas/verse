@@ -585,6 +585,56 @@
       "abbrev": "rm",
       "chapter": "12",
       "verse": "21"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "1",
+      "verse": "7"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "22",
+      "verse": "6"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "14",
+      "verse": "12"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "30",
+      "verse": "5"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "29",
+      "verse": "18"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "9",
+      "verse": "10"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "28",
+      "verse": "13"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "16",
+      "verse": "9"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "16",
+      "verse": "18"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "17",
+      "verse": "17"
     }
   ]
 }

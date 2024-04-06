@@ -8,44 +8,29 @@ import { getSecondsToNewVerse } from '@/utils/get-seconds-to-new-verse'
 export function Countdown() {
   const router = useRouter()
 
-  const secondsUntilNewVerse = useMemo(getSecondsToNewVerse, [])
+  const secondsToNewVerse = getSecondsToNewVerse()
 
-  const hour = useMemo(
-    () => Math.floor(secondsUntilNewVerse / (60 * 60)),
-    [secondsUntilNewVerse],
-  )
-  const minute = useMemo(
-    () => Math.floor((secondsUntilNewVerse % (60 * 60)) / 60),
-    [secondsUntilNewVerse],
-  )
-  const second = useMemo(
-    () => Math.floor(secondsUntilNewVerse % 60),
-    [secondsUntilNewVerse],
-  )
+  const [secondsUntilNewVerse, setSecondsUntilNewVerse] =
+    useState(secondsToNewVerse)
 
-  const [seconds, setSeconds] = useState(second)
-  const [minutes, setMinutes] = useState(minute)
-  const [hours, setHours] = useState(hour)
+  const { hours, minutes, seconds } = useMemo(() => {
+    return {
+      hours: Math.max(Math.floor(secondsUntilNewVerse / 3600), 0),
+      minutes: Math.max(Math.floor((secondsUntilNewVerse % 3600) / 60), 0),
+      seconds: Math.max(Math.floor((secondsUntilNewVerse % 3600) % 60), 0),
+    }
+  }, [secondsUntilNewVerse])
 
   useEffect(() => {
-    seconds > 0 && setTimeout(() => setSeconds(seconds - 1), 1000)
+    const timeout = setTimeout(() => {
+      setSecondsUntilNewVerse(getSecondsToNewVerse())
+    }, 1000)
 
-    if (seconds === 0 && minutes > 0) {
-      setMinutes(minutes - 1)
-      setSeconds(60)
-    }
-
-    if (minutes === 0 && hours > 0) {
-      setHours(hours - 1)
-      setMinutes(60)
-    }
-
-    if (hours === 0 && minutes === 0 && seconds === 0) {
+    if (hours <= 0 && minutes <= 0 && seconds <= 0) {
       router.refresh()
-
-      setSeconds(60)
-      setMinutes(60)
-      setHours(24)
+    }
+    return () => {
+      clearTimeout(timeout)
     }
   }, [seconds, minutes, hours, router])
 

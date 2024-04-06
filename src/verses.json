@@ -700,6 +700,56 @@
       "abbrev": "mt",
       "chapter": "11",
       "verse": "30"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "18",
+      "verse": "10"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "34",
+      "verse": "8"
+    },
+    {
+      "abbrev": "hb",
+      "chapter": "11",
+      "verse": "1"
+    },
+    {
+      "abbrev": "1pe",
+      "chapter": "5",
+      "verse": "8"
+    },
+    {
+      "abbrev": "1jo",
+      "chapter": "4",
+      "verse": "19"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "27",
+      "verse": "1"
+    },
+    {
+      "abbrev": "mt",
+      "chapter": "5",
+      "verse": "44"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "118",
+      "verse": "6"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "34",
+      "verse": "10"
+    },
+    {
+      "abbrev": "is",
+      "chapter": "41",
+      "verse": "13"
     }
   ]
 }

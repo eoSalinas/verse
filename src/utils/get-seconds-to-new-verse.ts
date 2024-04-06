@@ -1,13 +1,18 @@
-import { DateTime, Interval } from 'luxon'
+import { DateTime, Interval } from "luxon";
 
 export function getSecondsToNewVerse() {
-  const now = DateTime.now().setZone('America/Sao_Paulo')
+	const now = DateTime.now().setZone("America/Sao_Paulo");
 
-  const tomorrow = now.startOf('day').set({ hour: 6 }).plus({ days: 1 }) // Next day at 6 am
+	const nextVerseTimestamp = now.startOf("day").set({ hour: 6 });
 
-  const secondsToNewVerse = Interval.fromDateTimes(now, tomorrow).length(
-    'seconds',
-  )
+	const tomorrow =
+		now > nextVerseTimestamp
+			? nextVerseTimestamp.plus({ day: 1 })
+			: nextVerseTimestamp;
 
-  return secondsToNewVerse
+	const secondsToNewVerse = Interval.fromDateTimes(now, tomorrow).length(
+		"seconds",
+	);
+
+	return secondsToNewVerse;
 }

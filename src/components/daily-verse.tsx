@@ -32,15 +32,15 @@ async function getVerse(): Promise<GetVerseResponse> {
 			},
 		);
 
-		const verse = await response.json().catch(() => {}); // Catch if API don't send a response, the APP will not crash;
+		const verse = await response.json().catch(() => {}); // If API don't send a response, the APP will not crash;
 
 		if (response.status !== 200) {
-			// Placeholder verse if API is down
+			// Placeholder versicle will be shown if API is down
 			return getPlaceholderVerse();
 		}
 		return verse;
 	} catch (error) {
-		// Will catch if API is down and the fetch fails
+		// Will catch if API is down and the fetch fails (can't reach the endpoint)
 		return getPlaceholderVerse();
 	}
 }

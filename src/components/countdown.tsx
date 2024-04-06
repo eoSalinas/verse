@@ -15,19 +15,18 @@ export function Countdown() {
 
 	const { hours, minutes, seconds } = useMemo(() => {
 		return {
-			hours: Math.floor(secondsUntilNewVerse / 3600),
-			minutes: Math.floor((secondsUntilNewVerse % 3600) / 60),
-			seconds: Math.floor((secondsUntilNewVerse % 3600) % 60),
+			hours: Math.max(Math.floor(secondsUntilNewVerse / 3600), 0),
+			minutes: Math.max(Math.floor((secondsUntilNewVerse % 3600) / 60), 0),
+			seconds: Math.max(Math.floor((secondsUntilNewVerse % 3600) % 60), 0),
 		};
 	}, [secondsUntilNewVerse]);
 
 	useEffect(() => {
 		const timeout = setTimeout(() => {
-			setSecondsUntilNewVerse((state) => state - 1); // You can use "getSecondsToNewVerse" function to update this value too
+			setSecondsUntilNewVerse(getSecondsToNewVerse()); // You can use "getSecondsToNewVerse" function to update this value too
 		}, 1000);
 
 		if (hours <= 0 && minutes <= 0 && seconds <= 0) {
-			clearTimeout(timeout);
 			router.refresh();
 		}
 		return () => {

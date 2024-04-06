@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "eslint:check": "eslint ./src",
+    "eslint:fix": "eslint --fix ./src"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",

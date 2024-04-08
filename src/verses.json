@@ -750,6 +750,56 @@
       "abbrev": "is",
       "chapter": "41",
       "verse": "13"
+    },
+    {
+      "abbrev": "mt",
+      "chapter": "7",
+      "verse": "7"
+    },
+    {
+      "abbrev": "mt",
+      "chapter": "6",
+      "verse": "34"
+    },
+    {
+      "abbrev": "lc",
+      "chapter": "12",
+      "verse": "2"
+    },
+    {
+      "abbrev": "hb",
+      "chapter": "4",
+      "verse": "12"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "21",
+      "verse": "13"
+    },
+    {
+      "abbrev": "jo",
+      "chapter": "16",
+      "verse": "33"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "19",
+      "verse": "11"
+    },
+    {
+      "abbrev": "pv",
+      "chapter": "15",
+      "verse": "17"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "145",
+      "verse": "9"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "34",
+      "verse": "17"
     }
   ]
 }

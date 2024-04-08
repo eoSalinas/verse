@@ -1,13 +1,10 @@
-import { cookies } from 'next/headers'
-
 import { Countdown } from '@/components/countdown'
 import { DailyVerse } from '@/components/daily-verse'
 import { siteConfig } from '@/config/site'
 
-export default async function Home() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const cookie = cookies() // Just to force a dynamic route for get the right time to countdown
+export const dynamic = 'force-dynamic' // Force dynamic rendering for SSR
 
+export default async function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-5 antialiased">
       <h1 className="text-muted-foreground">

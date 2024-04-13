@@ -6,12 +6,10 @@
 Todas as contribuições são muito bem-vindas!
 
 Você pode começar por aqui:
+- [Guia de contribuição](https://github.com/eoSalinas/verse/blob/main/CONTRIBUTING.md)
 - [Entendendo o projeto Verse](https://github.com/eoSalinas/verse/issues/1)
 - [Ajudando na pré-seleção de 365 versículos](https://github.com/eoSalinas/verse/issues/5)
-#### Tem uma ideia em mente?
-Fique a vontade para abrir um issue explicando sua sugestão, dessa maneira podemos conversar.
 
-Não esqueça de verificar se alguém já não abriu uma issue com uma ideia similar, caso sim, por que não tentam trabalhar juntos?
 ### Quer rodar o projeto localmente?
 #### Dependências
 certifique-se de ter as seguintes dependências instaladas:

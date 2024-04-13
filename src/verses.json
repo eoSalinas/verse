@@ -1270,6 +1270,56 @@
         "abbrev": "jo",
         "chapter": "10",
         "verse": "7"
+    },
+    {
+        "abbrev": "hb",
+        "chapter": "13",
+        "verse": "8"
+    },
+    {
+        "abbrev": "mt",
+        "chapter": "21",
+        "verse": "22"
+    },
+    {
+        "abbrev": "sl",
+        "chapter": "56",
+        "verse": "11"
+    },
+    {
+        "abbrev": "pv",
+        "chapter": "10",
+        "verse": "9"
+    },
+    {
+        "abbrev": "sl",
+        "chapter": "1",
+        "verse": "1"
+    },
+    {
+        "abbrev": "sl",
+        "chapter": "91",
+        "verse": "1"
+    },
+    {
+        "abbrev": "sl",
+        "chapter": "121",
+        "verse": "7"
+    },
+    {
+        "abbrev": "1jo",
+        "chapter": "4",
+        "verse": "20"
+    },
+    {
+        "abbrev": "gl",
+        "chapter": "2",
+        "verse": "20"
+    },
+    {
+        "abbrev": "1jo",
+        "chapter": "4",
+        "verse": "16"
     }
 ]
 }

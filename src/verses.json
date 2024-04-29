@@ -1772,54 +1772,59 @@
       "verse": "12"
     },
     {
-        "abbrev": "lm",
-        "chapter": "3",
-        "verse": "24"
+      "abbrev": "lm",
+      "chapter": "3",
+      "verse": "24"
     },
     {
-        "abbrev": "sl",
-        "chapter": "5",
-        "verse": "3"
+      "abbrev": "sl",
+      "chapter": "5",
+      "verse": "3"
     },
     {
-        "abbrev": "lm",
-        "chapter": "3",
-        "verse": "22"
+      "abbrev": "lm",
+      "chapter": "3",
+      "verse": "22"
     },
     {
-        "abbrev": "sl",
-        "chapter": "51",
-        "verse": "1"
+      "abbrev": "sl",
+      "chapter": "51",
+      "verse": "1"
     },
     {
-        "abbrev": "is",
-        "chapter": "43",
-        "verse": "19"
+      "abbrev": "is",
+      "chapter": "43",
+      "verse": "19"
     },
     {
-        "abbrev": "ap",
-        "chapter": "3",
-        "verse": "20"
+      "abbrev": "ap",
+      "chapter": "3",
+      "verse": "20"
     },
     {
-        "abbrev": "sl",
-        "chapter": "62",
-        "verse": "2"
+      "abbrev": "sl",
+      "chapter": "62",
+      "verse": "2"
     },
     {
-        "abbrev": "sl",
-        "chapter": "103",
-        "verse": "17"
+      "abbrev": "sl",
+      "chapter": "103",
+      "verse": "17"
     },
     {
-        "abbrev": "is",
-        "chapter": "26",
-        "verse": "3"
+      "abbrev": "is",
+      "chapter": "26",
+      "verse": "3"
     },
     {
-        "abbrev": "pv",
-        "chapter": "2",
-        "verse": "6"
+      "abbrev": "pv",
+      "chapter": "2",
+      "verse": "6"
+    },
+    {
+      "abbrev": "sl",
+      "chapter": "4",
+      "verse": "1"
     }
   ]
 }

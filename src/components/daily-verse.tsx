@@ -1,3 +1,7 @@
+import type { GetVerseResponse } from '@/app/api/random-verse/route'
+import { env } from '@/env'
+import { api } from '@/utils/api'
+
 import {
   Card,
   CardContent,
@@ -6,31 +10,18 @@ import {
   CardTitle,
 } from './ui/card'
 
-interface GetVerseResponse {
-  book: {
-    abbrev: { pt: string; en: string }
-    name: string
-    author: string
-    group: string
-    version: string
-  }
-  chapter: number
-  number: number
-  text: string
-}
-
 async function getVerse(): Promise<GetVerseResponse> {
-  const response = await fetch(
-    'https://www.abibliadigital.com.br/api/verses/nvi/pt/random',
-    {
-      cache: 'force-cache',
-      next: {
-        tags: ['verse'],
-      },
+  const response = await api('/random-verse', {
+    headers: {
+      Authorization: `Bearer ${env.CRON_SECRET}`,
     },
-  )
+    cache: 'force-cache',
+    next: {
+      tags: ['verse'],
+    },
+  })
 
-  const verse = response.json()
+  const verse = await response.json()
 
   return verse
 }

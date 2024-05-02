@@ -1,0 +1,2 @@
+./node_modules/.bin/ajv validate -s src/verses.schema.json -d src/verses.json
+pnpm lint --fix

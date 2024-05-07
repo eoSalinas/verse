@@ -31,17 +31,23 @@ export async function DailyVerse() {
 
   return (
     <div className="px-6 md:w-[75%] lg:w-[70%] xl:w-[50%]">
-      <Card>
-        <CardHeader>
-          <CardTitle>
-            {book.name} - {chapter}:{number}
+      <Card className="m-auto max-w-md shadow-none">
+        <CardHeader className="space-y-0 p-4 pb-1">
+          <CardDescription className="text-xs">
+            Versículo do dia
+          </CardDescription>
+          <CardTitle className="text-lg">
+            {book.name} {chapter}:{number}
           </CardTitle>
-          <CardDescription>
-            Escrito por <span className="underline">{book.author}</span>
+          <CardDescription className="text-xs">
+            Escritor:{' '}
+            <span className="font-medium text-zinc-950 underline">
+              {book.author}
+            </span>
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <h1>&quot;{text.replace('"', '')}&quot;</h1>
+        <CardContent className="p-4 pt-0">
+          <h1>{text.replace('"', '')}</h1>
         </CardContent>
       </Card>
     </div>

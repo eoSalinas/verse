@@ -11,9 +11,8 @@ export default async function Home() {
         <Countdown /> para um novo versículo 🙌
       </h1>
       <DailyVerse />
-      <footer className="text-center text-sm text-muted-foreground">
-        Todo dia um versículo &copy; {siteConfig.name} -{' '}
-        {new Date().getFullYear()}
+      <footer className="rounded-full border bg-card px-3 py-2 text-center text-xs font-medium text-card-foreground">
+        &copy; {siteConfig.name} {new Date().getFullYear()}
       </footer>
     </div>
   )

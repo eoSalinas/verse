@@ -3,9 +3,14 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+import { Countdown } from '@/components/countdown'
+import { ThemeProvider } from '@/components/theme-provider'
+import { ThemeToggle } from '@/components/theme-toogle'
+import { VerseLogo } from '@/components/VerseLogo'
 import { siteConfig } from '@/config/site'
+import { cn } from '@/lib/utils'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], fallback: ['sans-serif'] })
 
 export const metadata: Metadata = {
   title: {
@@ -72,8 +77,29 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR" suppressHydrationWarning>
+      <body className={cn('h-screen antialiased', inter.className)}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <header className="absolute top-0 z-50 flex h-16 w-full items-center justify-between px-4">
+            <VerseLogo className="h-auto w-8" />
+            <div className="space-x-4 md:space-x-12">
+              <Countdown />
+              <ThemeToggle />
+            </div>
+          </header>
+
+          {children}
+
+          <footer className="absolute bottom-0 left-0 right-0 flex h-10 w-full items-center justify-center px-4 py-2 text-sm text-gray-500 sm:px-6">
+            &copy; {new Date().getFullYear()} | Verse
+          </footer>
+        </ThemeProvider>
+      </body>
     </html>
   )
 }

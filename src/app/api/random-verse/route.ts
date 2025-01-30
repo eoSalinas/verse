@@ -49,6 +49,8 @@ export async function GET(req: NextRequest) {
 
     return Response.json(responseBody)
   } catch (error) {
+    console.error('Fetch verse error: ' + error) // Should send error to observability service (e.g., Sentry, Datadog) for monitoring and alerting
+
     return Response.json(placeholderData)
   }
 }

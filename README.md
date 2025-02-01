@@ -3,7 +3,7 @@
 
 ## Verse
 
-Explore um **novo versículo bíblico a cada 24 horas**, uma fonte diária de **inspiração e reflexão** da **sabedoria da palavra de Deus**!
+Explore um **novo versículo bíblico a cada 24 horas**
 
 <a href="https://verse-chi.vercel.app" target="_blank">
   Ver versículo do dia
@@ -11,6 +11,8 @@ Explore um **novo versículo bíblico a cada 24 horas**, uma fonte diária de **
 </div>
 
 ### Introdução
+
+Uma fonte diária de **inspiração e reflexão** da **sabedoria da palavra de Deus**!
 
 Este projeto foi criado para oferecer uma experiência simples e acessível para desenvolvedores que desejam contribuir em um projeto open source pela primeira vez. O objetivo é reduzir a barreira de entrada, fomentar colaboração e compartilhamento de conhecimento dentro da comunidade de desenvolvimento, ao mesmo tempo em que entrega um produto de valor real, capaz de gerar um impacto significativo para os usuários.
 
@@ -20,12 +22,12 @@ O Verse possui uma versão funcional e utilizável, mas ainda está em desenvolv
 
 #### Funcionalidades e Futuras Melhorias
 
-| Funcionalidade            | Status          | Descrição                                                |
-| ------------------------- | --------------- | -------------------------------------------------------- |
-| Novo versículo a cada 24h | ✅ Implementado | Exibe um novo versículo automaticamente a cada dia       |
-| Compartilhamento          | ⏳ Em backlog   | Permite compartilhar versículos nas redes sociais        |
-| Detalhes do autor         | ⏳ Em backlog   | Exibe informações sobre o autor do versículo             |
-| CI/CD com Release         | ⏳ Em backlog   | Implementar um fluxo de deploy automatizado com Releases |
+| Funcionalidade            | Status          | Descrição                                          |
+| ------------------------- | --------------- | -------------------------------------------------- |
+| Novo versículo a cada 24h | ✅ Implementado | Exibe um novo versículo automaticamente a cada dia |
+| Compartilhamento          | ⏳ Em backlog   | Permite compartilhar versículos nas redes sociais  |
+| Detalhes do autor         | ⏳ Em backlog   | Exibe informações sobre o autor do versículo       |
+| CI/CD com Release         | ⏳ Em backlog   | Um fluxo de deploy automatizado com Releases       |
 
 Atualmente, a API utilizada para buscar os versículos apresenta indisponibilidade frequente. Para solucionar essa questão, planejamos desenvolver uma API própria e mais confiável para atender às necessidades do projeto.
 

@@ -20,8 +20,6 @@ Este projeto foi criado para oferecer uma experiência simples e acessível para
 
 O Verse possui uma versão funcional e utilizável, mas ainda está em desenvolvimento. Existem melhorias e novas funcionalidades planejadas para futuras versões.
 
-#### Funcionalidades e Futuras Melhorias
-
 | Funcionalidade            | Status          | Descrição                                          |
 | ------------------------- | --------------- | -------------------------------------------------- |
 | Novo versículo a cada 24h | ✅ Implementado | Exibe um novo versículo automaticamente a cada dia |

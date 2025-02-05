@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./public/logotipo-verse.svg" width="150" title="Verse" alt="Verse">
+<img src="./web/public/logotipo-verse.svg" width="150" title="Verse" alt="Verse">
 
 ## Verse
 

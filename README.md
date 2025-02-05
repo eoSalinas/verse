@@ -20,12 +20,13 @@ Este projeto foi criado para oferecer uma experiência simples e acessível para
 
 O Verse possui uma versão funcional e utilizável, mas ainda está em desenvolvimento. Existem melhorias e novas funcionalidades planejadas para futuras versões.
 
-| Funcionalidade            | Status          | Descrição                                          |
-| ------------------------- | --------------- | -------------------------------------------------- |
-| Novo versículo a cada 24h | ✅ Implementado | Exibe um novo versículo automaticamente a cada dia |
-| Compartilhamento          | ⏳ Em backlog   | Permite compartilhar versículos nas redes sociais  |
-| Detalhes do autor         | ⏳ Em backlog   | Exibe informações sobre o autor do versículo       |
-| CI/CD com Release         | ⏳ Em backlog   | Um fluxo de deploy automatizado com Releases       |
+| Funcionalidade            | Status          | Descrição                                                |
+| ------------------------- | --------------- | -------------------------------------------------------- |
+| Novo versículo a cada 24h | ✅ Implementado | Exibe um novo versículo automaticamente a cada dia       |
+| Kairos - API              | 🔧 Em andamento | API para fornecer versículos diários e integração futura |
+| Compartilhamento          | ⏳ Em backlog   | Permite compartilhar versículos nas redes sociais        |
+| Detalhes do autor         | ⏳ Em backlog   | Exibe informações sobre o autor do versículo             |
+| CI/CD com Release         | ⏳ Em backlog   | Um fluxo de deploy automatizado com Releases             |
 
 Atualmente, a API utilizada para buscar os versículos apresenta indisponibilidade frequente. Para solucionar essa questão, planejamos desenvolver uma API própria e mais confiável para atender às necessidades do projeto.
 

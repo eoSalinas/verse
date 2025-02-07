@@ -18,5 +18,8 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
   }
 }

@@ -21,6 +21,7 @@
     "prettier": "^3.4.2"
   },
   "dependencies": {
+    "@types/node": "^22.13.1",
     "dotenv": "^16.4.7",
     "fastify": "^5.2.1"
   }

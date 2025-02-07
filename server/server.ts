@@ -1,7 +1,11 @@
-import fastify  from 'fastify'
+import fastify from 'fastify'
 
 const server = fastify()
 
+
+server.get('/health', async function handler(request, reply) {
+  return { status: 'OK' }
+})
 
 
 server

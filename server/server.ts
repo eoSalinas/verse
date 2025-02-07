@@ -1,4 +1,7 @@
 import fastify from 'fastify'
+const server = fastify({
+  logger: true
+})
 
 const server = fastify()
 

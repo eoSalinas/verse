@@ -3,12 +3,8 @@ const server = fastify({
   logger: true
 })
 
-const server = fastify()
 
 
-server.get('/health', async function handler(request, reply) {
-  return { status: 'OK' }
-})
 
 
 server

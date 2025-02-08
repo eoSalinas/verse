@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts",
-    "build": "tsup server.ts --out-dir build",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src/server.ts --out-dir build",
     "start": "node build/server.cjs"
   },
   "keywords": [],

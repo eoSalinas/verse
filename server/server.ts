@@ -20,5 +20,5 @@ server
     console.log('🔥 HTTP Server running!')
   })
 server.get('/health', async function handler(_, reply) {
-  return reply.send({ status: 'OK' })
+  return reply.status(200).send({ status: 'OK' })
 })

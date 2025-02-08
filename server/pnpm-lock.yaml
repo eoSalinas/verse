@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/node':
-        specifier: ^22.13.1
-        version: 22.13.1
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
@@ -21,6 +18,9 @@ importers:
         specifier: ^8.3.6
         version: 8.3.6(tsx@4.19.2)(typescript@5.7.3)
     devDependencies:
+      '@types/node':
+        specifier: ^22.13.1
+        version: 22.13.1
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.23.0
         version: 8.23.0(@typescript-eslint/parser@8.23.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -51,6 +51,9 @@ importers:
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
 packages:
 

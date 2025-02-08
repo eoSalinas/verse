@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch server.ts"
+    "build": "tsup server.ts --out-dir build",
   },
   "keywords": [],
   "author": "",

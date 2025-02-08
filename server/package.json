@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "build": "tsup server.ts --out-dir build",
+    "start": "node build/server.cjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +22,12 @@
     "eslint-plugin-n": "^17.15.1",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "@types/node": "^22.13.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "tsup": "^8.3.6"
   }
 }

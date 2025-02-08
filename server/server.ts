@@ -1,11 +1,11 @@
-import { server } from 'app'
+import { app } from 'app'
 import dotenv from 'dotenv'
 
 dotenv.config()
 
 const port = Number(process.env.PORT) ?? 3030
 
-server
+app
   .listen({
     host: '0.0.0.0',
     port,

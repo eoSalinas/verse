@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts",
-    "build": "tsup server.ts --out-dir build",
-    "start": "node build/server.cjs"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src/server.ts --out-dir build",
+    "start": "node build/server.js"
   },
   "keywords": [],
   "author": "",
